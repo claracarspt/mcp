@@ -1,0 +1,47 @@
+{
+  "name": "claracars-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Clara Carros — search used & imported cars in Portugal, calculate import tax (ISV), estimate resale value, and get in touch. Thin wrapper over the public claracars.pt API.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "claracars-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    ".well-known"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cars",
+    "portugal",
+    "used-cars",
+    "car-import",
+    "isv",
+    "automotive"
+  ],
+  "homepage": "https://claracars.pt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claracarspt/mcp"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "start:http": "node dist/http.js",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
