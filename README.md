@@ -14,6 +14,7 @@ It's a thin, open-source wrapper over the public `claracars.pt` API — no keys,
 | `get_car` | Full details + specs for one car |
 | `calculate_isv` | Estimate Portuguese car import tax (ISV) |
 | `calculate_iuc` | Estimate Portuguese annual road tax (IUC) |
+| `list_makes_models` | Canonical brand/model names the other tools expect |
 | `estimate_resale_value` | Market value range for a car in Portugal |
 | `list_services` | What Clara Carros offers |
 | `contact_me` | Ask a human to get in touch (needs the user's consent + contact) |

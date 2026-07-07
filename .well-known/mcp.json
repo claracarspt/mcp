@@ -1,7 +1,7 @@
 {
   "name": "claracars",
   "description": "Search used & imported cars in Portugal, estimate car import tax (ISV), estimate resale value, and reach Clara Carros.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "vendor": "Clara Carros",
   "homepage": "https://claracars.pt",
   "documentation": "https://github.com/claracarspt/mcp",
@@ -15,6 +15,7 @@
     "get_car",
     "calculate_isv",
     "calculate_iuc",
+    "list_makes_models",
     "estimate_resale_value",
     "list_services",
     "contact_me",
