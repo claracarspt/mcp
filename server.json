@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.claracarspt/mcp",
+  "description": "Search used & imported cars in Portugal, calculate import tax (ISV) and road tax (IUC), estimate resale value, and reach Clara Carros.",
+  "repository": {
+    "url": "https://github.com/claracarspt/mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "websiteUrl": "https://claracars.pt",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "claracars-mcp",
+      "version": "0.1.1",
+      "transport": { "type": "stdio" }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://claracars.pt/mcp"
+    }
+  ]
+}
