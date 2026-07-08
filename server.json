@@ -6,13 +6,13 @@
     "url": "https://github.com/claracarspt/mcp",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://claracars.pt",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "claracars-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": { "type": "stdio" }
     }
   ],

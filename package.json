@@ -1,6 +1,7 @@
 {
   "name": "claracars-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "mcpName": "io.github.claracarspt/mcp",
   "description": "MCP server for Clara Carros — search used & imported cars in Portugal, calculate import tax (ISV), estimate resale value, and get in touch. Thin wrapper over the public claracars.pt API.",
   "license": "MIT",
   "type": "module",
