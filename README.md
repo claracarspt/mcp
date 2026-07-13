@@ -1,3 +1,5 @@
+<img src="./assets/logo-400.png" alt="Clara Carros" width="96" align="right" />
+
 # Clara Carros MCP server
 
 [![MCP](https://img.shields.io/badge/MCP-server-blue)](https://modelcontextprotocol.io) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
@@ -5,6 +7,8 @@
 An [MCP](https://modelcontextprotocol.io) server that lets AI assistants work with **[Clara Carros](https://claracars.pt)** — used & imported cars in Portugal. Search live stock, estimate the Portuguese import tax (**ISV**), estimate a car's resale value, and get in touch.
 
 It's a thin, open-source wrapper over the public `claracars.pt` API — no keys, no setup beyond adding the server.
+
+> **Cline / one-click install:** see [`llms-install.md`](./llms-install.md) — the machine-readable setup guide.
 
 ## Tools
 
